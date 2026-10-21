@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.8** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.9** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,20 +12,22 @@ Versão **0.1.8** · Android 8.0 ou mais recente · aproximadamente 15 MB · pro
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Escola Madison 0.1.8
+## Escola Madison 0.1.9 (10)
 
-- Alarmes de atividade passam a usar o mecanismo de despertador do Android, separado dos avisos de preparação.
-- O disparo mantém o processador acordado por poucos segundos para concluir a validação e apresentar o alerta, mesmo com a tela apagada.
-- Menos processamento ao disparar; uma validação lenta não registra o alarme como entregue antes da publicação, e falhas temporárias recebem tentativas limitadas.
-- Corrigidas referências de áudio que podiam deixar de funcionar após atualizar o APK. Preferências de som, canais silenciados e escolhas de vibração são preservados.
-- A restauração dos horários após reiniciar ou atualizar o app usa trabalho persistente em segundo plano. A sincronização também conclui a publicação dos avisos antes de encerrar.
-- Orientação sobre atividade em segundo plano nas configurações de alarmes de aparelhos Samsung.
+- Registro do próprio ponto liberado para todas as funções aprovadas. A regra é compartilhada com o iPhone; basta atualizar a conta com internet. As permissões de supervisão permanecem separadas.
+- Agendamento de lembretes com menos processamento repetido e sem cancelar toda a programação por uma falha transitória.
+- Dados inválidos em campos opcionais de escalas não interrompem os lembretes da rotina.
+- Avisos da escola são marcados como entregues somente depois de publicados no Android.
+- Perfil → Notificações e alarmes mostra o próximo horário, permissões especiais, categorias silenciadas e volume de alarme zerado.
+- Testes de alarme e notificação em 30 segundos, com a tela bloqueada, e botão para copiar um diagnóstico sem nomes, conteúdo de atividades ou credenciais.
 
-Instale sobre a versão anterior, sem desinstalar. Abra o app uma vez depois de atualizar e confira as opções em **Notificações e alarmes**. Em aparelhos Samsung, permita atividade em segundo plano e retire a Escola Madison dos aplicativos suspensos nas configurações de bateria.
+Atualize por cima da versão anterior, sem desinstalar. Depois abra o aplicativo com internet para atualizar a conta e a programação. Em Perfil → Notificações e alarmes, confira os avisos e use **Testar alarme** e **Testar notificação**, um de cada vez, bloqueando a tela em seguida.
 
-Lembretes da rotina já programados usam os dados locais, inclusive sem internet, respeitando a validade da autorização da conta. Novos avisos da escola precisam chegar pela sincronização; o Android pode adiar essa busca em economia de bateria. Fechar o app ou bloquear a tela é diferente de usar **Forçar parada** nas configurações, ou desligar completamente o celular.
+Lembretes salvos usam o cache local enquanto a autorização da conta estiver válida (até 24 horas sem renovação). Novos avisos da escola dependem da sincronização, que o Android pode adiar na economia de bateria.
 
-Validação em emuladores Android 9 e Android 17; o Galaxy J4+ físico ainda precisa ser retestado. Nenhuma alteração nas telas de reuniões.
+O acesso a **Alarmes e lembretes** é separado da permissão de notificações. Em aparelhos Samsung, mantenha o app fora dos aplicativos em suspensão profunda. Forçar a parada nas configurações do Android impede entregas até reabrir o app.
+
+APK universal para Android 8 ou superior, com a mesma assinatura de teste. Não é uma publicação na Play Store. Os J4+ e S23 físicos ainda precisam de confirmação com o teste do próprio aparelho.
 
 ## Integridade do arquivo
 
@@ -34,5 +36,5 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-f8042d5346be5feeab48e00330d660a36e6b5b1cd6888aa4e01d9d0777035ecb
+bee40c827f0a0f269131e0b0e800360974f7d68fa533c3724da29f9a25404507
 ```
