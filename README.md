@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.3** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.4** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,13 +12,17 @@ Versão **0.1.3** · Android 8.0 ou mais recente · aproximadamente 15 MB · pro
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Versão 0.1.3
+## Versão 0.1.4
 
-Corrige controles de notificações e alarmes que podiam ficar sem responder durante a inicialização. Salva as preferências antes de programar os lembretes e mantém as escolhas se essa programação falhar. Ao voltar das configurações do Android, conclui a ativação solicitada e explica quando a permissão continua bloqueada.
+- Terracota como cor de destaque nos dois temas, incluindo a barra inferior.
+- Cores do tema claro iguais às do iPhone e ícone do app sempre com fundo claro.
+- Resumo compacto de sincronização na página Hoje, com acesso aos detalhes ao tocar.
+- Alarme redesenhado, com horário em destaque e botões maiores.
+- Barra de navegação do sistema harmonizada com o app no Android 9.
 
-Validado em emuladores Android 9 e Android 17, incluindo toque nos controles, persistência das preferências, notificações e alarmes sem internet. O retorno das configurações do sistema foi validado no Android 9. Falta confirmar no Galaxy J4+ físico.
+Mantém as correções de notificações, alarmes e fechamento após o login no Android 9. Sem mudanças específicas em reuniões.
 
-Mantém a correção da versão 0.1.2 para o fechamento depois do login no Android 9 e o ícone original do iOS.
+Validado em emuladores Android 9 e Android 17: temas claro e escuro, acesso às pendências, botões do alarme com fonte ampliada, entrega de alarme offline e instalação como atualização. Falta confirmar no Galaxy J4+ físico.
 
 ## Integridade do arquivo
 
@@ -27,7 +31,7 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-2b2d3726d78030910945d191fa1e1ff7aff6a2c247997e4772b59cfd7e2f5b61
+e8b63fb8ff667ff912cd2c3e7153346aa6c757d8cac871504658db33f69034e5
 ```
 
 Este repositório distribui o instalador de testes e as instruções de instalação.
