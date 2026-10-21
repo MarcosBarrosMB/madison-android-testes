@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.5** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.6** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,21 +12,17 @@ Versão **0.1.5** · Android 8.0 ou mais recente · aproximadamente 15 MB · pro
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Escola Madison 0.1.5
+## Escola Madison 0.1.6
 
-- Hoje e Rotina mantêm as informações salvas durante conexão fraca, sincronização e troca de abas.
-- A rotina atualizada substitui os dados anteriores de uma vez, sem esvaziar a página durante a consulta.
-- Pedidos automáticos simultâneos de sincronização são agrupados para evitar consultas repetidas.
-- Containers, campos e espaçamentos revisados em compras e pendências, com as cores do iPhone e destaque terracota.
-- Nome instalado: **Escola Madison**. Símbolo do ícone 10% menor, com fundo claro.
+- Corrige o cancelamento de alarmes e avisos de preparação quando o aplicativo atualiza a agenda logo após o horário marcado, antes da entrega pelo Android.
+- Preserva também os alarmes adiados que aguardam entrega. Atividades removidas, expiradas ou desativadas continuam sendo canceladas.
+- Mantém o funcionamento offline, a mesma tela de alarme e as melhorias anteriores de Hoje e Rotina.
 
-Sem mudanças específicas em reuniões. Mantém as correções anteriores de login, notificações e alarmes.
+Instale por cima da versão anterior, sem desinstalar, para preservar dados e preferências. Abra o app após atualizar e confira se os alarmes estão ativados.
 
-Instale por cima da versão anterior, sem desinstalar, para preservar os dados locais. Baixe novamente o APK; o endereço é o mesmo.
+A falha foi reproduzida no emulador Android 9 antes da correção. Testes de entrega, adiamento e prevenção de duplicações passaram nos emuladores Android 9 e Android 17. A confirmação no Galaxy J4+ físico permanece pendente.
 
-Validado em emuladores Android 9 e Android 17, com dados sintéticos: navegação, sincronização lenta/offline, atualização das atividades e entrega de alarmes offline. O aparelho Galaxy J4+ físico não estava disponível.
-
-Android 8.0 ou mais recente. APK universal com suporte a processadores de 32 e 64 bits e a mesma assinatura de desenvolvimento das versões anteriores.
+Android 8.0 ou mais recente. APK universal para processadores de 32 e 64 bits, com a mesma assinatura de desenvolvimento das versões anteriores. Sem alterações específicas em reuniões.
 
 ## Integridade do arquivo
 
@@ -35,7 +31,5 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-28034b6ab5643263ec55e22e9911b3be20d361ed287239811976aa4f1d46f4b1
+1eab25b898d4a86b40b089c3a2e59c1ba91d9533c8d225dd8a30bfdb5262e015
 ```
-
-Este repositório distribui o instalador de testes e as instruções de instalação.
