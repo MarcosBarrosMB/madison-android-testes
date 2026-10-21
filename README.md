@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.1** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.2** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,11 +12,11 @@ Versão **0.1.1** · Android 8.0 ou mais recente · aproximadamente 15 MB · pro
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Versão 0.1.1
+## Versão 0.1.2
 
-Ícone original do iOS e ajustes preventivos de inicialização em sistemas antigos. O motor nativo de IA de texto não é carregado em processos de 32 bits, e o reconhecedor de voz moderno não é inicializado em Android anterior ao 12.
+Corrige a leitura de datas enviadas pelo servidor que podia fechar o app no Android 9 depois de conferir a conta. A falha foi reproduzida nos testes de saldo de horas e corrigida; os testes também verificam a preservação dos eventos e registros de ponto.
 
-Abertura verificada em emuladores Android 9 e Android 17, com e sem internet. O fechamento relatado no Galaxy J4+ ainda precisa ser confirmado no aparelho físico; ele não foi reproduzido no emulador Android 9 de 64 bits.
+O fluxo de login até a tela inicial e o uso sem internet foram testados no emulador Android 9. A confirmação no Galaxy J4+ físico depende do teste pelo usuário. Mantém o ícone original do iOS.
 
 ## Integridade do arquivo
 
@@ -25,7 +25,7 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-14f4a0a0906ee324668b88d66ab33cdb423d0a6e869dfbec1a243ffa88c35562
+9ec6c5dd5fc4c3057e96b03c4c18611dc279abc40de2865e7e2663f9a1d38d2d
 ```
 
 Este repositório distribui o instalador de testes e as instruções de instalação.
