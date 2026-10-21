@@ -1,28 +1,32 @@
-# Madison para Android — testes
+# Escola Madison para Android — testes
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.4** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.5** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
 1. Abra o link no celular Android e baixe o arquivo `.apk` novamente.
 2. Abra o arquivo e toque em **Instalar** ou **Atualizar**. Se solicitado, permita a instalação por essa fonte.
-3. Abra o Madison e entre com sua conta institucional. Se já usa o iPhone, utilize a mesma conta.
+3. Abra o **Escola Madison** e entre com sua conta institucional. Se já usa o iPhone, utilize a mesma conta.
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Versão 0.1.4
+## Escola Madison 0.1.5
 
-- Terracota como cor de destaque nos dois temas, incluindo a barra inferior.
-- Cores do tema claro iguais às do iPhone e ícone do app sempre com fundo claro.
-- Resumo compacto de sincronização na página Hoje, com acesso aos detalhes ao tocar.
-- Alarme redesenhado, com horário em destaque e botões maiores.
-- Barra de navegação do sistema harmonizada com o app no Android 9.
+- Hoje e Rotina mantêm as informações salvas durante conexão fraca, sincronização e troca de abas.
+- A rotina atualizada substitui os dados anteriores de uma vez, sem esvaziar a página durante a consulta.
+- Pedidos automáticos simultâneos de sincronização são agrupados para evitar consultas repetidas.
+- Containers, campos e espaçamentos revisados em compras e pendências, com as cores do iPhone e destaque terracota.
+- Nome instalado: **Escola Madison**. Símbolo do ícone 10% menor, com fundo claro.
 
-Mantém as correções de notificações, alarmes e fechamento após o login no Android 9. Sem mudanças específicas em reuniões.
+Sem mudanças específicas em reuniões. Mantém as correções anteriores de login, notificações e alarmes.
 
-Validado em emuladores Android 9 e Android 17: temas claro e escuro, acesso às pendências, botões do alarme com fonte ampliada, entrega de alarme offline e instalação como atualização. Falta confirmar no Galaxy J4+ físico.
+Instale por cima da versão anterior, sem desinstalar, para preservar os dados locais. Baixe novamente o APK; o endereço é o mesmo.
+
+Validado em emuladores Android 9 e Android 17, com dados sintéticos: navegação, sincronização lenta/offline, atualização das atividades e entrega de alarmes offline. O aparelho Galaxy J4+ físico não estava disponível.
+
+Android 8.0 ou mais recente. APK universal com suporte a processadores de 32 e 64 bits e a mesma assinatura de desenvolvimento das versões anteriores.
 
 ## Integridade do arquivo
 
@@ -31,7 +35,7 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-e8b63fb8ff667ff912cd2c3e7153346aa6c757d8cac871504658db33f69034e5
+28034b6ab5643263ec55e22e9911b3be20d361ed287239811976aa4f1d46f4b1
 ```
 
 Este repositório distribui o instalador de testes e as instruções de instalação.
