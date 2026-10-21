@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.2** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.3** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,11 +12,13 @@ Versão **0.1.2** · Android 8.0 ou mais recente · aproximadamente 15 MB · pro
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Versão 0.1.2
+## Versão 0.1.3
 
-Corrige a leitura de datas enviadas pelo servidor que podia fechar o app no Android 9 depois de conferir a conta. A falha foi reproduzida nos testes de saldo de horas e corrigida; os testes também verificam a preservação dos eventos e registros de ponto.
+Corrige controles de notificações e alarmes que podiam ficar sem responder durante a inicialização. Salva as preferências antes de programar os lembretes e mantém as escolhas se essa programação falhar. Ao voltar das configurações do Android, conclui a ativação solicitada e explica quando a permissão continua bloqueada.
 
-O fluxo de login até a tela inicial e o uso sem internet foram testados no emulador Android 9. A confirmação no Galaxy J4+ físico depende do teste pelo usuário. Mantém o ícone original do iOS.
+Validado em emuladores Android 9 e Android 17, incluindo toque nos controles, persistência das preferências, notificações e alarmes sem internet. O retorno das configurações do sistema foi validado no Android 9. Falta confirmar no Galaxy J4+ físico.
+
+Mantém a correção da versão 0.1.2 para o fechamento depois do login no Android 9 e o ícone original do iOS.
 
 ## Integridade do arquivo
 
@@ -25,7 +27,7 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-9ec6c5dd5fc4c3057e96b03c4c18611dc279abc40de2865e7e2663f9a1d38d2d
+2b2d3726d78030910945d191fa1e1ff7aff6a2c247997e4772b59cfd7e2f5b61
 ```
 
 Este repositório distribui o instalador de testes e as instruções de instalação.
