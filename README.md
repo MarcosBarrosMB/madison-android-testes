@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.7** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.8** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,40 +12,20 @@ Versão **0.1.7** · Android 8.0 ou mais recente · aproximadamente 15 MB · pro
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Escola Madison 0.1.7
+## Escola Madison 0.1.8
 
-- Hoje e Rotina mantêm as atividades salvas visíveis durante a sincronização, inclusive ao abrir com Wi-Fi lento.
-- O processamento local termina antes de receber a próxima atualização; atualizações intermediárias são agrupadas para evitar carregamento contínuo em aparelhos mais lentos.
-- Menos processamento repetido da agenda e das permissões de acesso, com reaproveitamento dos dados em memória.
-- Mudanças no estado da conexão não refazem desnecessariamente o agendamento de lembretes. As preferências e as verificações de acesso foram preservadas.
-- Nome, ícone, cores e correções anteriores de Android 9 e alarmes mantidos. Nenhuma alteração nas telas de reuniões.
+- Alarmes de atividade passam a usar o mecanismo de despertador do Android, separado dos avisos de preparação.
+- O disparo mantém o processador acordado por poucos segundos para concluir a validação e apresentar o alerta, mesmo com a tela apagada.
+- Menos processamento ao disparar; uma validação lenta não registra o alarme como entregue antes da publicação, e falhas temporárias recebem tentativas limitadas.
+- Corrigidas referências de áudio que podiam deixar de funcionar após atualizar o APK. Preferências de som, canais silenciados e escolhas de vibração são preservados.
+- A restauração dos horários após reiniciar ou atualizar o app usa trabalho persistente em segundo plano. A sincronização também conclui a publicação dos avisos antes de encerrar.
+- Orientação sobre atividade em segundo plano nas configurações de alarmes de aparelhos Samsung.
 
-Validado em emuladores Android 9 e Android 17, incluindo abertura com sincronização pendente, navegação offline, alarmes e atualização do APK. Ainda é necessário confirmar o comportamento no Galaxy J4+ físico.
+Instale sobre a versão anterior, sem desinstalar. Abra o app uma vez depois de atualizar e confira as opções em **Notificações e alarmes**. Em aparelhos Samsung, permita atividade em segundo plano e retire a Escola Madison dos aplicativos suspensos nas configurações de bateria.
 
-Instale sobre a versão anterior, sem desinstalar, para preservar os dados locais ainda não sincronizados.
+Lembretes da rotina já programados usam os dados locais, inclusive sem internet, respeitando a validade da autorização da conta. Novos avisos da escola precisam chegar pela sincronização; o Android pode adiar essa busca em economia de bateria. Fechar o app ou bloquear a tela é diferente de usar **Forçar parada** nas configurações, ou desligar completamente o celular.
 
-## Integridade do arquivo
-
-Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado em **21/10/2026**.
-
-SHA-256:
-
-```
-42f84c9902ebdbea43d999493024490df9b64cc9d7d35b55a295b85388d245bf
-```
-## Escola Madison 0.1.7
-
-- Hoje e Rotina mantêm as atividades salvas visíveis durante a sincronização, inclusive ao abrir com Wi-Fi lento.
-- O processamento local termina antes de receber a próxima atualização; atualizações intermediárias são agrupadas para evitar carregamento contínuo em aparelhos mais lentos.
-- Menos processamento repetido da agenda e das permissões de acesso, com reaproveitamento dos dados em memória.
-- Mudanças no estado da conexão não refazem desnecessariamente o agendamento de lembretes. As preferências e as verificações de acesso foram preservadas.
-- Botão de registrar entrada/saída com largura ajustada ao texto, seguindo o iPhone.
-- Cartões e opções com cantos de 28 dp, seguindo o padrão da página Áreas; arredondamento anterior das reuniões preservado.
-- Nome, ícone, cores e correções anteriores de Android 9 e alarmes mantidos. Nenhuma alteração nas telas de reuniões.
-
-Validado em emuladores Android 9 e Android 17, incluindo abertura com sincronização pendente, navegação offline, alarmes e atualização do APK. Ainda é necessário confirmar o comportamento no Galaxy J4+ físico.
-
-Instale sobre a versão anterior, sem desinstalar, para preservar os dados locais ainda não sincronizados.
+Validação em emuladores Android 9 e Android 17; o Galaxy J4+ físico ainda precisa ser retestado. Nenhuma alteração nas telas de reuniões.
 
 ## Integridade do arquivo
 
@@ -54,5 +34,5 @@ Assinatura de desenvolvimento verificada, igual à versão anterior. Atualizado 
 SHA-256:
 
 ```
-8e930b31f807b4a4b8578c370a39e0f48df9da87269491fd4c92bf912e94e33b
+f8042d5346be5feeab48e00330d660a36e6b5b1cd6888aa4e01d9d0777035ecb
 ```
