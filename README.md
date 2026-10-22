@@ -2,7 +2,7 @@
 
 [**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
 
-Versão **0.1.11** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.1.12** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -12,24 +12,23 @@ Versão **0.1.11** · Android 8.0 ou mais recente · aproximadamente 15 MB · pr
 
 Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
 
-## Escola Madison 0.1.11 (12)
+## Escola Madison 0.1.12 (13)
 
-- Corrigida a apresentação alternativa do alarme quando o Android não permite tela cheia. O aviso agora mantém as ações Parar e Adiar no pop-up fornecido pelo sistema.
-- Tocar no alarme abre diretamente sua tela.
-- Lembretes antecipados solicitam destaque. Categorias antigas preservam silêncio e escolhas do usuário; quando necessário, o app oferece acesso direto à categoria que precisa de ajuste.
-- Diagnóstico mostra prioridade do canal, volume de alarme, permissão de tela cheia e estado da tela na entrega.
-- Avisos comuns da escola mantêm sua prioridade normal.
+- Alarmes passam a reproduzir o som em um serviço próprio, ativo apenas durante o toque, com parada e adiamento. A notificação não reproduz uma segunda cópia do áudio.
+- Corrigida a interrupção dos lembretes após 24 horas sem renovar a conta: a rotina confirmada e salva continua disponível offline, com verificação da conta e dos horários.
+- Renovação local dos horários em segundo plano, sem exigir internet e sem serviço permanente.
+- Diagnóstico mais preciso de início da reprodução, volume, bloqueios e falhas de áudio.
 
-Instale por cima da versão anterior. Em **Perfil → Notificações e alarmes**, toque em **Autorizar tela do alarme**, se aparecer, e use **Testar alarme** com o aparelho bloqueado.
+Instale por cima da versão anterior. Abra o app uma vez e acesse **Perfil → Notificações e alarmes**. Autorize horário preciso e tela do alarme se solicitado; são acessos diferentes da permissão de notificações. Use **Testar alarme** e bloqueie a tela durante os 30 segundos de espera.
 
-Validado no APK Release/R8 em emuladores Android 9 e 17: processo encerrado, tela apagada, despertar da tela, abertura do alarme e áudio iniciado pelo sistema. No Android 9 também foi forçado o modo de repouso. A alternativa de pop-up foi verificada no Android 17 com a permissão de tela cheia negada. O Galaxy S25 físico não esteve disponível para validação.
+Compatível a partir do Android 8. Validado em emuladores Android 9, 13 e 17. Os Galaxy físicos não estavam disponíveis; a validação em emuladores não garante todas as configurações de fabricantes. Não há alteração em reuniões ou no aplicativo do iPhone.
 
-APK universal para Android 8 ou superior, aproximadamente 15 MB, com a mesma assinatura de teste. Sem novas bibliotecas ou serviço permanente em segundo plano. Reuniões não foram alteradas.
+APK universal Release/R8, cerca de 15 MB, mesma assinatura de teste, sem novas bibliotecas. Não desinstale a versão anterior: a atualização preserva os dados locais.
 
 ## Integridade do arquivo
 
 SHA-256:
 
 ```
-ed365923bc398df97b45f85b1417715e0df28cf9148802f83279dbf53aae7894
+2983cb4a173f14104f9a8e046684d2f248ca305495284d7fe221670f9c733de2
 ```
