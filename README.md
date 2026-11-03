@@ -1,34 +1,41 @@
-# Escola Madison para Android — testes
+# Escola Madison para Android
 
-[**Baixar o APK para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/download/teste-2026-10-21/Madison-teste-2026-10-21.apk)
+[**Baixar o APK atualizado para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/latest/download/Madison-Android.apk)
 
-Versão **0.1.12** · Android 8.0 ou mais recente · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.2.0 (14)** · Android 8.0 ou posterior · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
-1. Abra o link no celular Android e baixe o arquivo `.apk` novamente.
+1. Abra o link no celular Android e baixe o arquivo `.apk`.
 2. Abra o arquivo e toque em **Instalar** ou **Atualizar**. Se solicitado, permita a instalação por essa fonte.
-3. Abra o **Escola Madison** e entre com sua conta institucional. Se já usa o iPhone, utilize a mesma conta.
+3. Abra o **Escola Madison** e entre com a mesma conta institucional usada no iPhone ou Mac.
 
-Se o app já estiver instalado, instale por cima para manter os dados locais. Não é necessário desinstalar.
+Instale por cima da versão anterior para preservar a conta e os dados locais. Não é necessário desinstalar.
 
-## Escola Madison 0.1.12 (13)
+## Nesta atualização
 
-- Alarmes passam a reproduzir o som em um serviço próprio, ativo apenas durante o toque, com parada e adiamento. A notificação não reproduz uma segunda cópia do áudio.
-- Corrigida a interrupção dos lembretes após 24 horas sem renovar a conta: a rotina confirmada e salva continua disponível offline, com verificação da conta e dos horários.
-- Renovação local dos horários em segundo plano, sem exigir internet e sem serviço permanente.
-- Diagnóstico mais preciso de início da reprodução, volume, bloqueios e falhas de áudio.
+- Reuniões como última opção da Rotina e em Áreas, com pautas por tipo, histórico de resoluções e atas.
+- Agendamento sem término previsto, exclusão de reuniões marcadas, aviso dez minutos antes e alarme no início para os participantes autorizados, conforme as permissões do aparelho.
+- Gravação pelo aparelho que marcou a reunião, controle na notificação e ata automática ao encerrar. O áudio é apagado após confirmar a ata salva; não é guardado no servidor Madison.
+- Ata editável, com as alterações incluídas no PDF.
+- GPT Madison ao lado de Registrar entrada: texto com resposta progressiva e conversa por voz GPT-Live. O assistente segue as permissões da conta.
+- Consentimento antes de enviar dados à OpenAI; histórico criptografado somente no aparelho, separado por conta.
+- Widget GPT Madison e controles rápidos para GPT e ponto.
 
-Instale por cima da versão anterior. Abra o app uma vez e acesse **Perfil → Notificações e alarmes**. Autorize horário preciso e tela do alarme se solicitado; são acessos diferentes da permissão de notificações. Use **Testar alarme** e bloqueie a tela durante os 30 segundos de espera.
+A chave da OpenAI permanece no servidor institucional. Os usuários autorizados não precisam de uma chave própria. O uso da API é cobrado separadamente da assinatura ChatGPT.
 
-Compatível a partir do Android 8. Validado em emuladores Android 9, 13 e 17. Os Galaxy físicos não estavam disponíveis; a validação em emuladores não garante todas as configurações de fabricantes. Não há alteração em reuniões ou no aplicativo do iPhone.
+## Validação e distribuição
 
-APK universal Release/R8, cerca de 15 MB, mesma assinatura de teste, sem novas bibliotecas. Não desinstale a versão anterior: a atualização preserva os dados locais.
+406 testes JVM sem falhas, Lint concluído, testes nativos no Android 13 e captura nativa por 76 segundos com tela bloqueada. Transcrição e ata controladas nos testes verificam recuperação e exclusão após confirmação do banco. A fala real e a voz em aparelhos Android físicos ainda precisam de conferência no aparelho.
 
-## Integridade do arquivo
+APK universal Release/R8, sem depuração, com a mesma assinatura de teste das versões anteriores. Distribuição direta pelo GitHub; não publicado na Play Store.
 
-SHA-256:
+[Notas completas da versão](https://github.com/MarcosBarrosMB/madison-android-testes/releases/tag/android-0.2.0-2026-11-03) · [Versão anterior 0.1.12](https://github.com/MarcosBarrosMB/madison-android-testes/releases/tag/teste-2026-10-21)
+
+## Integridade
+
+SHA-256 do APK 0.2.0:
 
 ```
-2983cb4a173f14104f9a8e046684d2f248ca305495284d7fe221670f9c733de2
+fa279c6566567a6d50a19aa78a55db42ceae6a432b87fd7c861bd66a24f2a9d1
 ```
