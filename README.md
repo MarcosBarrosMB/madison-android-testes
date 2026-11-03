@@ -2,7 +2,7 @@
 
 [**Baixar o APK atualizado para Android**](https://github.com/MarcosBarrosMB/madison-android-testes/releases/latest/download/Madison-Android.apk)
 
-Versão **0.2.1 (16)** · Android 8.0 ou posterior · aproximadamente 15 MB · processadores de 32 e 64 bits.
+Versão **0.2.2 (17)** · Android 8.0 ou posterior · aproximadamente 15 MB · processadores de 32 e 64 bits.
 
 ## Instalação e atualização
 
@@ -13,6 +13,10 @@ Versão **0.2.1 (16)** · Android 8.0 ou posterior · aproximadamente 15 MB · p
 Instale por cima da versão anterior para preservar a conta e os dados locais. Não é necessário desinstalar.
 
 ## Nesta atualização
+
+- GPT reabre a última conversa escolhida e mostra as mensagens mais recentes automaticamente.
+- Um único botão no chat: voz com o campo vazio, enviar ao escrever e parar durante a resposta.
+- Compatibilidade preservada com o histórico local anterior, sem envio das conversas ao banco.
 
 - Corrige salvamento de notas e atas que podia ser recusado pelo servidor.
 - Preserva rascunhos durante sincronização e avisa quando outro aparelho altera a ata.
@@ -31,17 +35,18 @@ A chave da OpenAI permanece no servidor institucional. Os usuários autorizados 
 
 ## Validação e distribuição
 
-412 testes unitários JVM sem falhas, cinco etapas de integração entre os clientes reais Android e Apple, Lint concluído e quatro testes nativos no Android 13, incluindo captura por 76 segundos com tela bloqueada. A integração cobre reunião, ata, pautas, cancelamento, ponto e resposta de rede perdida; usa banco isolado e contas sintéticas. Transcrição e ata controladas nos testes verificam recuperação e exclusão após confirmação do banco. A fala real e a voz em aparelhos Android físicos ainda precisam de conferência no aparelho.
+Cinco testes nativos adicionais de chat/reuniões passaram nesta atualização, incluindo histórico com 40 mensagens e alternância de voz/envio. Na entrega anterior: 412 testes unitários JVM sem falhas, cinco etapas de integração entre os clientes reais Android e Apple, Lint concluído e quatro testes nativos no Android 13, incluindo captura por 76 segundos com tela bloqueada. A integração cobre reunião, ata, pautas, cancelamento, ponto e resposta de rede perdida; usa banco isolado e contas sintéticas. Transcrição e ata controladas nos testes verificam recuperação e exclusão após confirmação do banco. A fala real e a voz em aparelhos Android físicos ainda precisam de conferência no aparelho.
 
 APK universal Release/R8, sem depuração, com a mesma assinatura de teste das versões anteriores. Distribuição direta pelo GitHub; não publicado na Play Store.
 
-[Notas completas da versão](https://github.com/MarcosBarrosMB/madison-android-testes/releases/tag/android-0.2.1-2026-11-03) · [Versão anterior 0.1.12](https://github.com/MarcosBarrosMB/madison-android-testes/releases/tag/teste-2026-10-21)
+[Notas completas da versão](https://github.com/MarcosBarrosMB/madison-android-testes/releases/tag/android-0.2.2-2026-11-03) · [Versão anterior 0.1.12](https://github.com/MarcosBarrosMB/madison-android-testes/releases/tag/teste-2026-10-21)
 
 ## Integridade
 
-SHA-256 do APK 0.2.1:
+SHA-256 do APK 0.2.2:
 
 ```
-24b8d5a91c57f073c789841116b2cb38c83cc0867c7d31de84183db30e8ca5a8
+5126338e575a88a90d12e8f971e374b0b43a7f3cdd1dc716efb7baf25da93fa7
 ```
+
 
